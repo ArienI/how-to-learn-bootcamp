@@ -9,17 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-  background-color: #f2f2f2;
-  display: flex;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
+
 
 .logo {
   width: 228px;
@@ -33,13 +23,6 @@
   z-index: 2;
   position: absolute;
 }
-
-
-
-
-
-
-
 
 
 
@@ -142,12 +125,6 @@
 
 
 
-
-
-
-
-
-
 .section-title_theme_dark {
   width: 60%;
   line-height: 1.15;
@@ -191,79 +168,18 @@
 
 
 
-.footer {
-  min-height: 350px;
-  background-color: #1f1f1f;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  box-sizing: border-box;
-}
 
-.footer__columns {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-}
 
-.footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 711px;
-  justify-content: space-between;
-}
 
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-}
 
 .logo_place_footer {
   width: 228px;
   height: 32px;
 }
 
-.footer__author {
-  margin: 18px 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
 
-.footer__column-heading {
-  margin: 0 0 20px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-}
 
-.footer__column-links {
-  margin: auto;
-  left: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  list-style: none;
-}
 
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-  padding-right: 10px;
-}
-
-.footer__column-link {
-  color: #fff;
-  text-decoration: none;
-}
 
 a:hover{
   text-decoration: underline;         /*"для ссылок можно добавить эффект наведения"----это я правильно поняла и сделала?*/
