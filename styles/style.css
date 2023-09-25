@@ -34,18 +34,7 @@
   position: absolute;
 }
 
-.header__title {
-  margin: 0;
-  max-width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-left: 64px;
-  z-index: 3;
-}
+
 
 .header__subtitle{
   margin: 0;
