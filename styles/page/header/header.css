@@ -5,7 +5,9 @@
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   display: flex;
-  position: relative;
+  justify-content: space-between;
+  align-items: flex-end;
+	position: relative;
   overflow: hidden;
   z-index: 1;
 }
