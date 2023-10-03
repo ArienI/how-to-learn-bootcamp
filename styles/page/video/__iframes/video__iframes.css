@@ -1,8 +1,0 @@
-.video__iframes {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  align-items: center;
-  grid-gap: 20px;
-}
