@@ -2,6 +2,8 @@
   width: 765px;
   height: 608px;
   object-fit: cover;
-  object-position: right bottom;
   z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

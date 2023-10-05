@@ -1,11 +1,12 @@
 .khan__buy-link {
-  margin: 0 0 0 48px;
+  margin: 0;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
   transition: 0.5s;
+  align-self: flex-start;
 }
 
 .khan__buy-link:hover {

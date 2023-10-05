@@ -4,5 +4,5 @@
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
-  grid-gap: 20px;
+  column-gap: 20px;
 }
